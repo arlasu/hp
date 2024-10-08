@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="./images/favicon.ico">
+	<title>PiyoTemplate</title>
+	<!-- CSS -->
+	<link rel="stylesheet" href="./libs/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="./libs/bootstrap/carousel.css">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="./css/custom.css">
+</head>
+<body>
+	
+	<!-- Header(Start) -->
+	<header>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">
+					<img src="./images/logo.png">PiyoTemplate
+				</a>
+			</div>
+		</nav>
+	</header>
+	<!-- Header(End) -->
+
+	<!-- Main(Start) -->
+	<main>
+
+		<!-- リスト2-12 -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-8">col-sm-8</div>
+				<div class="col-sm-4">col-sm-4</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm">col-sm</div>
+				<div class="col-sm">col-sm</div>
+				<div class="col-sm">col-sm</div>
+		</div>
+			</div>
+		<!-- リスト2-13 -->
+		<div class="container">
+			<div class="row">
+				<div class="col">col</div>
+				<div class="col-auto">col-auto:コンテンツによって幅が可変</div>
+				<div class="col">col</div>
+			</div>
+			<div class="row">
+				<div class="col">col</div>
+				<div class="col-md-auto">col-md-auto:medim以上でコンテンツによって幅が可変</div>
+				<div class="col">col</div>
+			</div>
+		</div>
+		<!-- リスト2-14 -->
+		<div class="container">
+			<div class="row">
+			<div class="col">col</div>
+			<div class="col">col</div>
+			<div class="w-100"></div>
+			<div class="col">col</div>
+			<div class="col">col</div>
+		</div>
+			</div>
+		<!-- リスト2-15 -->
+		<div class="container">
+			<div class="row">
+			<div class="col">col</div>
+			<div class="col">col</div>
+			<div class="w-100 d-done d-md-block"></div>
+			<div class="col">col</div>
+			<div class="col">col</div>
+		</div>
+			</div>
+		<!-- リスト2-16 -->
+		<h3>ベース：全幅＋半幅カムラ、Medim以上：8列＋4列カムラ</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-md-8">col-12 col-md-8</div>
+				<div class="col-6 col-md-4">col-6 col-md-4</div>
+			</div>
+		</div>
+		<h3>ベース：半幅カムラ✖️3、Medim以上：4列カムラ✖️3</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col-6 col-md-4">col-6 col-md-4</div>
+				<div class="col-6 col-md-4">col-6 col-md-4</div>
+				<div class="col-6 col-md-4">col-6 col-md-4</div>
+			</div>
+		</div>
+		<!-- リスト2-17 -->
+		<div class="container">
+			<div class="row-cols-1 row-cols-sm-2 row-cols-md-4">
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+				<div class="col">Col</div>
+			</div>
+		</div>
+		<!-- リスト2-18 -->
+		<h3>垂直上揃え：align-items-start</h3>
+		<div class="container">
+			<div class="row align-items-start" id="test">
+				<div class="col">col</div>
+				<div class="col">col</div>
+				<div class="col">col</div>
+			</div>
+		</div>
+		<h3>垂直上揃え：align-items-center</h3>
+		<div class="container">
+			<div class="row align-items-center">
+				<div class="col">col</div>
+				<div class="col">col</div>
+				<div class="col">col</div>
+		</div>
+			</div>
+		<h3>垂直上揃え：align-items-end</h3>
+		<div class="container">
+			<div class="row align-items-end">
+				<div class="col">col</div>
+				<div class="col">col</div>
+				<div class="col">col</div>
+		</div>
+			</div>
+		<!-- リスト2-19 -->
+		<div class="container">
+			<div class="row">
+				<div class="col align-self-start">col align-self-start</div>
+				<div class="col align-self-center">col align-self-center</div>
+				<div class="col align-self-end">col align-self-end</div>
+			</div>
+		</div>
+		<!-- リスト2-20 -->
+		<h3>垂平左揃え：justify-content:flex-start</h3>
+		<div class="container">
+			<div class="row justify-content:flex-start">
+				<div class="col-4">col-4</div>
+				<div class="col-4">col-4</div>
+			</div>
+		</div>
+		<h3>垂平中央揃え：justify-content:flex-conter</h3>
+		<div class="container">
+			<div class="row justify-content:flex-conter">
+				<div class="col-4">col-4</div>
+				<div class="col-4">col-4</div>
+			</div>
+		</div>
+		<h3>垂平右揃え：justify-content:flex-end</h3>
+		<div class="container">
+			<div class="row justify-content:flex-end">
+				<div class="col-4">col-4</div>
+				<div class="col-4">col-4</div>
+			</div>
+		</div>
+		<h3>等間隔に配置：justify-content:space-around</h3>
+		<div class="container">
+			<div class="row justify-content:space-around">
+				<div class="col-4">col-4</div>
+				<div class="col-4">col-4</div>
+			</div>
+		</div>
+		<h3>両端から均等に配置：justify-content:space-between</h3>
+		<div class="container">
+			<div class="row justify-content:space-between">
+				<div class="col-4">col-4</div>
+				<div class="col-4">col-4</div>
+			</div>
+		</div>
+		<!-- リスト2-21 -->
+		<h3>-0ありの場合</h3>
+		<div class="container">
+			<div class="row gx-0">
+				<div class="col">col</div>
+				<div class="col">col</div>
+			</div>
+		</div>
+		<h3>-0なしの場合（参考）</h3>
+		<div class="container">
+			<div class="row">
+				<div class="col">col</div>
+				<div class="col">col</div>
+			</div>
+		</div>
+		<h3>コンテナなし、gx-0ありの場合</h3>
+			<div class="row gx-0">
+				<div class="col">col</div>
+				<div class="col">col</div>
+			</div>
+			<!-- リスト -->
+		<!-- リスト2-27 -->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">第1階層:col-sm-9</div>
+
+				<div class="row">
+				<div class="col-8 col-sm-6">第2階層:col-8 col-sm-6</div>
+				<div class="col-4 col-sm-6">第3階層:col-4 col-sm-6</div>
+				</div>
+			</div>
+			<div class="col-sm-3">第1階層:col-sm-3</div>
+		</div>
+	</main>
+	<!-- Main(End) -->
+
+	<!-- Footer(Start) -->
+	<footer>
+		<div class="container text-muted py-5">
+			<p class="float-end mb-1"><a href="#">Back to top</a></p>
+			<p class="mb-1">&copy; Bootstrap</p>
+			<p class="mb-0">
+				<a href="https://getbootstrap.jp" target="_blank">Bootstap公式サイト</a>や
+				<a href="https://getbootstrap.jp/docs/5.0/getting-started/introduction/" target="_blank">スタートガイド</a>、
+				<a href="https://icons.getbootstrap.com/" target="_blank">アイコン</a>を活用しましょう。
+			</p>
+		</div>
+	</footer>
+	<!-- Footer(End) -->
+
+	<!-- JavaScript -->
+	<script src="./libs/jquery/jquery-3.6.1.min.js"></script>
+	<script src="./libs/bootstrap/bootstrap.min.js"></script>
+	<script src="./main.js"></script>
+</body>
+</html>
