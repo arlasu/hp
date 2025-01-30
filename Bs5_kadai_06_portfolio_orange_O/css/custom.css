@@ -1,0 +1,75 @@
+/* CSS */
+
+html, body{
+	width: 100%; height: 100%;
+	background-color: antiquewhite;
+}
+
+.navbar-brand img{
+	width: 28px; height: auto;
+	margin: 0px 5px; padding: 0px;
+	border-radius: 14px;
+}
+
+nav{
+	background-color: darkred;
+}
+
+#my_key{
+	width: 100%; height: auto;
+	padding: 3rem 0px;
+	background-color: sandybrown;
+	color: white;
+}
+
+#my_key img{
+	width: 180px; height: auto;
+	margin: 1rem 0px;
+	border-radius: 90px;
+	filter: drop-shadow(0 0 2.0rem sienna);
+}
+
+#my_key h1{
+	margin: 1rem 0px;
+	font-size: 3rem;
+}
+
+#my_key p{
+	margin: 1rem 0px;
+	font-size: 1.2rem;
+}
+
+#my_portfolio{
+	text-align: center;
+}
+
+#my_portfolio{
+	width: 100%; height: auto;
+	background-color: antiquewhite;
+}
+
+#my_about{
+	width: 100%; height: auto;
+	background-color: sandybrown;
+	color: white;
+}
+
+#my_contact{
+	width: 100%; height: auto;
+	background-color: antiquewhite;
+}
+
+#my_contact i{
+	padding: 0.2rem;
+	font-size: 2rem;
+}
+
+#head-bootstrap{
+	width: 140px; height: 140px;
+	margin: 0 auto 0 auto;
+	border-radius: 70px;
+	background-image: url("../images/favicon.ico");
+	background-position: center;
+	background-size: cover;
+	background-color: silver;
+}
