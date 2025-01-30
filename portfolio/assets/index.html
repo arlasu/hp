@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ポートフォリオ</title>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- CSSファイルのパスを修正 -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <!-- ヘッダー -->
@@ -31,11 +32,12 @@
         <section id="projects" class="section">
             <h2>作ったプログラム</h2>
             <div class="project-list">
-                <!-- プロジェクトカードを追加していきます -->
+                <!-- プロジェクトカードを追加 -->
                 <div class="project-card">
                     <h3>モンスター図鑑おみくじ</h3>
                     <p>図鑑をおみくじ風にしたアプリ。</p>
-                    <a href="/projects/M_O_P_B/omikuji.html" class="btn">詳細を見る</a>
+                    <!-- omikuji.htmlのリンクを修正 -->
+                    <a href="projects/M_O_P_B/omikuji.html" class="btn">詳細を見る</a>
                 </div>
             </div>
         </section>
@@ -46,15 +48,14 @@
         </section>
     </main>
 
-<!-- Service Worker 登録 -->
-<script>
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/assets/js/service-worker.js')
-        .then(() => console.log("Service Worker Registered"))
-        .catch(error => console.log("Service Worker Registration Failed", error));
-    }
-</script>
-
+    <!-- Service Worker 登録 -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('assets/js/service-worker.js')
+            .then(() => console.log("Service Worker Registered"))
+            .catch(error => console.log("Service Worker Registration Failed", error));
+        }
+    </script>
 
     <!-- フッター -->
     <footer>
@@ -63,6 +64,7 @@
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <!-- JavaScriptのパスを修正 -->
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
